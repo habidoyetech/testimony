@@ -836,6 +836,10 @@ html {
   padding-top: 10rem;
 }
 
+.pt-\[5rem\] {
+  padding-top: 5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1020,6 +1024,24 @@ html {
 
 @media (min-width: 768px) {
   .md\:max-w-\[340px\] {
+    max-width: 340px;
+  }
+
+  .md\:max-w-\[320px\] {
+    max-width: 320px;
+  }
+
+  .md\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
+  .md\:pt-\[10rem\] {
+    padding-top: 10rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:max-w-\[340px\] {
     max-width: 340px;
   }
 }
