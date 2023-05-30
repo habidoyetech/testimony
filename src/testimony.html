@@ -15,7 +15,7 @@
       </div>
       <div class="inline-block w-full overflow-hidden py-20">
         <div class="w-full flex flex-wrap justify-center sm:space-x-20" >
-          <div class="w-full md:max-w-[340px] pt-[10rem]">
+          <div class="w-[80%] md:max-w-[340px] pt-[10rem]">
             <div class="testimony-card text-font-color w-full " >
               <div class="inline mb-6 w-full relative ">
                 <div class="clip-path-triangle absolute -top-[9rem] hover:left-[5rem] z-50 rotate-[180deg] w-[10rem] h-[10rem] bg-[#ffc700]"></div>
@@ -351,7 +351,7 @@
     }
   }
 
-  function updateUnlike (unlikespanid, addunlikeid, nounlikeid) {
+  function updateUnLike (unlikespanid, addunlikeid, nounlikeid) {
     unlikespanid.textContent  = Number(unlikespanid.textContent) + 1
 
     if (Number(unlikespanid.textContent) > 0) {
@@ -372,9 +372,13 @@
   yesLikeone.addEventListener('click', () => updateLike(likeSpanone, yesLikeone, noLikeone))
   noLiketwo.addEventListener('click', () => updateLike(likeSpantwo, yesLiketwo, noLiketwo))
   yesLiketwo.addEventListener('click', () => updateLike(likeSpantwo, yesLiketwo, noLiketwo))
+  noUnLike.addEventListener('click', () => updateUnLike(unlikeSpan, addUnLike, noUnLike))
+  addUnLike.addEventListener('click', () => updateUnLike(unlikeSpan, addUnLike, noUnLike))
+  noUnLikeone.addEventListener('click', () => updateUnLike(unlikeSpanone, addUnLikeone, noUnLikeone))
+  addUnLikeone.addEventListener('click', () => updateUnLike(unlikeSpanone, addUnLikeone, noUnLikeone))
+  noUnLiketwo.addEventListener('click', () => updateUnLike(unlikeSpantwo, addUnLiketwo, noUnLiketwo))
+  addUnLiketwo.addEventListener('click', () => updateUnLike(unlikeSpantwo, addUnLiketwo, noUnLiketwo))
   
-
-  // yesLike.addEventListener('click', updateLike)
   // noUnLike.addEventListener('click', updateUnlike)
   // addUnLike.addEventListener('click', updateUnlike)
 
