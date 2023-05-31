@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./dist/*.{html,js}"],
   theme: {
     clipPath: {
       triangle: 'polygon(50% 0%, 34% 30%, 66% 31%);',

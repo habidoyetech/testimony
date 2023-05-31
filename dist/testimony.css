@@ -695,16 +695,12 @@ html {
   width: 10rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-\[90\%\] {
-  width: 90%;
-}
-
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-full {
@@ -830,10 +826,6 @@ html {
 
 .pb-4 {
   padding-bottom: 1rem;
-}
-
-.pt-\[10rem\] {
-  padding-top: 10rem;
 }
 
 .pt-\[5rem\] {
@@ -1023,14 +1015,6 @@ html {
 }
 
 @media (min-width: 768px) {
-  .md\:max-w-\[340px\] {
-    max-width: 340px;
-  }
-
-  .md\:max-w-\[320px\] {
-    max-width: 320px;
-  }
-
   .md\:max-w-\[300px\] {
     max-width: 300px;
   }
